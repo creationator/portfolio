@@ -6,10 +6,11 @@
   html, body {
       background: rgba(0, 0, 0, 1);
   }
-  ul {
-float: left;
-position: static;
-z-index: 0;
+  #giphy-container {
+    width: 100%;
+    height: 100%;
+    position: static;
+    z-index: 0;
 }
 
 svg {
@@ -28,23 +29,31 @@ svg polygon {
   opacity: 1;
 }
 
-.polylion {
-  height: 800px;
+.polyme {
+  /*height: 800px;*/
+  margin-top: 100px;
 }
-.no-cssanimations .polylion > polygon {
+.no-cssanimations .polyme > polygon {
   -webkit-transform: scale(1);
           transform: scale(1);
   opacity: 1;
 }
 
+#giphy-container{
+  width: 100%;
+  height: 100%;
+}
 
-li {
+.giphy{
 list-style: none;
-width: 10em;
-height: 100px;
+min-width: 10%;
+height: 150px;
+min-height: 10%;
+height: 150px;
 background-color: black;
 position: relative;
 opacity: 0;
+float: left;
 -webkit-transform: translateY(2000px);
 -moz-transform: translateY(2000px);
 -ms-transform: translateY(2000px);
@@ -54,58 +63,58 @@ transform: translateY(2000px);
 -moz-transition: -moz-transform 600ms cubic-bezier(0.19, 1, 0.22, 1) 0.4s, opacity 0.3s 0.4s;
 transition: transform 600ms cubic-bezier(0.19, 1, 0.22, 1) 0.4s opacity 0.3s 0.4s;
 }
-li:nth-of-type(10) {
+.giphy:nth-of-type(10) {
 -webkit-transition-delay: 1.2s;
 -moz-transition-delay: 1.2s;
 transition-delay: 1.2s;
 }
-li:nth-of-type(9) {
+.giphy:nth-of-type(9) {
 -webkit-transition-delay: 1.2s;
 -moz-transition-delay: 1.2s;
 transition-delay: 1.2s;
 }
-li:nth-of-type(8) {
+.giphy:nth-of-type(8) {
 -webkit-transition-delay: 1.2s;
 -moz-transition-delay: 1.2s;
 transition-delay: 1.2s;
 }
-li:nth-of-type(7) {
+.giphy:nth-of-type(7) {
 -webkit-transition-delay: 1.2s;
 -moz-transition-delay: 1.2s;
 transition-delay: 1.2s;
 }
-li:nth-of-type(6) {
+.giphy:nth-of-type(6) {
 -webkit-transition-delay: 1.1s;
 -moz-transition-delay: 1.1s;
 transition-delay: 1.1s;
 }
-li:nth-of-type(5) {
+.giphy:nth-of-type(5) {
 -webkit-transition-delay: 1s;
 -moz-transition-delay: 1s;
 transition-delay: 1s;
 }
-li:nth-of-type(4) {
+.giphy:nth-of-type(4) {
 -webkit-transition-delay: 0.9s;
 -moz-transition-delay: 0.9s;
 transition-delay: 0.9s;
 }
-li:nth-of-type(3) {
+.giphy:nth-of-type(3) {
 -webkit-transition-delay: 0.8s;
 -moz-transition-delay: 0.8s;
 transition-delay: 0.8s;
 }
-li:nth-of-type(2) {
+.giphy:nth-of-type(2) {
 -webkit-transition-delay: 0.7s;
 -moz-transition-delay: 0.7s;
 transition-delay: 0.7s;
 }
-li:nth-of-type(1) {
+.giphy:nth-of-type(1) {
 -webkit-transition-delay: 0.6s;
 -moz-transition-delay: 0.6s;
 transition-delay: 0.6s;
 }
 
-.is-visible li {
+.is-visible .giphy{
 opacity: 1;
 -webkit-transform: translateY(0);
 -moz-transform: translateY(0);
@@ -523,7 +532,7 @@ transform: translateY(0);
    opacity: 0.3;
 }
 #gif81 {
-  background: url(http://i.giphy.com/4qrth4OhXNMYM.gif) no-repeat center center;
+  background: url(http://i.giphy.com/CVUHFN9yMDwxW.gif) no-repeat center center;
   background-size: cover;
    opacity: 0.3;
 }
@@ -543,7 +552,7 @@ transform: translateY(0);
    opacity: 0.3;
 }
 #gif85 {
-  background: url(http://i.giphy.com/CVUHFN9yMDwxW.gif) no-repeat center center;
+  background: url(http://i.giphy.com/4qrth4OhXNMYM.gif) no-repeat center center;
   background-size: cover;
    opacity: 0.3;
 }
@@ -563,7 +572,7 @@ transform: translateY(0);
    opacity: 0.3;
 }
 #gif89 {
-  background: url(http://i.giphy.com/yEtv1wWZpmG2s.gif) no-repeat center center;
+  background: url(http://i.giphy.com/aGhVGLE0mV2Ra.gif) no-repeat center center;
   background-size: cover;
    opacity: 0.3;
 }
