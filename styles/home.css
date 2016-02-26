@@ -1035,6 +1035,9 @@ figure:hover span {
   margin: 0 2%;
   float: left;
 }
+.half h1 {
+  text-align: center;
+}
 
 .me {
   display: block;
