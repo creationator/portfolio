@@ -6,14 +6,12 @@
 <head>
   <title>Derrick Morton</title>
   <link rel="stylesheet" href="styles/home.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 
 <body>
   <div id="wrapper">
 
-<<<<<<< HEAD
-
-=======
   <section id="main-intro">
   <nav class="menu-opener">
     <div class="menu-opener-inner"></div>
@@ -31,9 +29,7 @@
       </a>
     </ul>
   </nav>
->>>>>>> master
 
-    <section id="main-intro">
   <div id="face-container">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="-400 0 1200 600" class="polyme">
   <defs>
@@ -408,7 +404,7 @@
 <polygon points="258.25 169.37 257.33 210.12 292.58 147.07 258.25 169.37" style="fill:#5e3d34"/>
   </g>
 </svg>
-<h1>Derrick Morton | UI Developer | Designer</h1>
+<h1 class="name-heading">Derrick Morton | UI Developer | Designer</h1>
 </div>
 <div id="giphy-container">
   <div id="gif1" class="giphy"></div>
@@ -470,7 +466,7 @@
   <div id="gif57" class="giphy"></div>
   <div id="gif58" class="giphy"></div>
   <div id="gif59" class="giphy"></div>
-  <!-- <div id="gif60" class="giphy"></div>
+  <div id="gif60" class="giphy"></div>
   <div id="gif61" class="giphy"></div>
   <div id="gif62" class="giphy"></div>
   <div id="gif63" class="giphy"></div>
@@ -528,7 +524,25 @@
 </section>
 
 <section>
-  <div id="footer">text here</div>
+  <div id="footer">
+    <div class="half">test here</div>
+    <div class="half">
+      <h1>Me Around The Web</h1>
+      <img class="me" src="http://placebeard.it/g/640x450" alt="" />
+
+      <div class="social">
+          <div class="icons">
+            <a href="#"><i class="fa fa-github"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-codepen"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-dribbble"></i></a>
+            <a href="#"><i class="fa fa-behance"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
@@ -537,7 +551,12 @@
   <script>
   $(document).ready(function(){
   	$('#giphy-container').addClass('is-visible');
+    $(".menu-opener").click(function(){
+    $(".menu-opener, .menu-opener-inner, .menu").toggleClass("active");
+    });
   });
+
+
   </script>
 
   <script>
@@ -549,7 +568,7 @@ var tmax_opts = {
   yoyo: false
 };
 
-var tmax_tl           = new TimelineMax(tmax_opts),
+var tmax_tl = new TimelineMax(tmax_opts),
     polyme_shapes   = $('svg.polyme > g polygon'),
     polyme_stagger  = 0.00475,
     polyme_duration = 1.5;
