@@ -211,8 +211,8 @@ svg polygon {
 
 .giphy{
 list-style: none;
-min-width: 10%;
-height: 16.7%;
+min-width: 12.5%;
+height: 15%;
 background-color: black;
 position: relative;
 opacity: 0;
