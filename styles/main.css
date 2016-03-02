@@ -1,4 +1,5 @@
-
+@import url(https://fonts.googleapis.com/css?family=Khula:400,300);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:300,500,300italic);
   * {
     margin: 0;
     padding: 0;
@@ -6,6 +7,7 @@
   }
   html, body {
       background: rgba(0, 0, 0, 1);
+      font-family: 'Khula', 'Helvetica';
   }
 
 
@@ -20,6 +22,8 @@ nav a {
   display: block;
   width: 100%;
   height: 100%;
+  font-family: 'Khula', 'Helvetica';
+  font-weight: 300;
 }
 
 .menu-opener, .menu-opener:hover, .menu-opener.active, .menu-opener-inner, .menu-opener-inner::before, .menu-opener-inner::after, .menu, .menu.active {
@@ -93,7 +97,7 @@ nav a {
   -ms-user-select: none;
   user-select: none;
   width: 0rem;
-  z-index: 1;
+  z-index: 2;
 }
 .menu.active {
   width: -webkit-calc(100% - 2rem);
@@ -236,7 +240,7 @@ opacity: 1;
 transform: translateY(0);
 }
 #gif1 {
-  background: url(http://i.giphy.com/11CXAq0P8h50GI.gif) no-repeat center center;
+  background: url("../img/gifs/programmers.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.01s;
@@ -245,7 +249,7 @@ transform: translateY(0);
 
 }
 #gif2 {
-  background: url(http://i.giphy.com/hYVB7dvRRjSo0.gif) no-repeat center center;
+  background: url("../img/gifs/tron.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.02s;
@@ -253,7 +257,7 @@ transform: translateY(0);
    transition-delay: 0.02s;
 }
 #gif3 {
-  background: url(http://i.giphy.com/jfbe2jLvsN2Xm.gif) no-repeat center center;
+  background: url("../img/gifs/mutiny.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.03s;
@@ -261,7 +265,7 @@ transform: translateY(0);
    transition-delay: 0.03s;
 }
 #gif4 {
-  background: url(http://i.giphy.com/12FShKqmjT05KU.gif) no-repeat center center;
+  background: url("../img/gifs/lego.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.04s;
@@ -269,7 +273,7 @@ transform: translateY(0);
    transition-delay: 0.04s;
 }
 #gif5 {
-  background: url(http://i.giphy.com/122Q2oxrm319WE.gif) no-repeat center center;
+  background: url("../img/gifs/new-art.gif") no-repeat center center;
      opacity: 0.2;
      background-size: cover;
      -webkit-transition-delay: 0.05s;
@@ -279,7 +283,7 @@ transform: translateY(0);
 
 }
 #gif6 {
-  background: url(http://i.giphy.com/ip2GZs8rLxt8k.gif) no-repeat center center;
+  background: url("../img/gifs/code-fight.gif") no-repeat center center;
      opacity: 0.2;
      background-size: cover;
      -webkit-transition-delay: 0.06s;
@@ -289,7 +293,7 @@ transform: translateY(0);
 
 }
 #gif7 {
-  background: url(http://i.giphy.com/etF8lzmSALBPa.gif) no-repeat center center;
+  background: url("../img/gifs/macbook.gif") no-repeat center center;
      opacity: 0.2;
      background-size: cover;
      -webkit-transition-delay: 0.07s;
@@ -299,7 +303,7 @@ transform: translateY(0);
 
 }
 #gif8 {
-  background: url(http://i.giphy.com/ZgBHqRyBXetos.gif) no-repeat center center;
+  background: url("../img/gifs/we-understand.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.08s;
@@ -307,7 +311,7 @@ transform: translateY(0);
    transition-delay: 0.08s;
 }
 #gif9 {
-  background: url(http://i.giphy.com/6Y2tzno2HDj44.gif) no-repeat center center;
+  background: url("../img/gifs/jesus.gif") no-repeat center center;
   background-size: contain;
    opacity: 0.2;
    -webkit-transition-delay: 0.09s;
@@ -388,7 +392,7 @@ transform: translateY(0);
    transition-delay: 0.13s;
 }
 #gif19 {
-  background: url(http://i.giphy.com/vxvP6ra7wn0DC.gif) no-repeat center center;
+  background: url("../img/gifs/skrillex.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.12s;
@@ -508,7 +512,7 @@ transform: translateY(0);
    transition-delay: 0.38s;
 }
 #gif34 {
-  background: url(http://i.giphy.com/349qKnoIBHK1i.gif) no-repeat center center;
+  background: url("../img/gifs/github.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.37s;
@@ -516,7 +520,7 @@ transform: translateY(0);
    transition-delay: 0.37s;
 }
 #gif35 {
-  background: url(http://i.giphy.com/ukMiDlCmdv2og.gif) no-repeat center center;
+  background: url("../img/gifs/coding2.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.36s;
@@ -524,7 +528,7 @@ transform: translateY(0);
    transition-delay: 0.36s;
 }
 #gif36 {
-  background: url(http://i.giphy.com/ZVik7pBtu9dNS.gif) no-repeat center center;
+  background: url("../img/gifs/coding.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.35s;
@@ -992,7 +996,7 @@ figure:hover span {
 	opacity: 1;
 }
 .project1 {
-  background: url(http://nxworld.net/codepen/css-image-hover-effects/pic01.jpg) no-repeat center center;
+  background: url("http://nxworld.net/codepen/css-image-hover-effects/pic01.jpg") no-repeat center center;
   background-size: cover;
 }
 .unveil figure div {
@@ -1018,6 +1022,168 @@ figure:hover span {
   opacity: 0.4;
 }
 
+/* Project Section */
+
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 20px 15px;
+  max-width: 90%;
+}
+
+header {
+  color: white;
+  background: #007ece;
+  padding: 10rem 0;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+.project-header {
+   margin: auto;
+   color: white;
+   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.7), 0 0 5px rgba(0, 0, 0, 0.4);
+   font-family: 'Montserrat';
+   font-weight: 700;
+   font-size: 3vw;
+}
+.project-subheader {
+   margin: auto;
+   color: white;
+   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.7), 0 0 5px rgba(0, 0, 0, 0.4);
+   font-family: 'Montserrat';
+   font-weight: 300;
+   font-size: 2vw;
+}
+
+
+.banner-container h1 {
+  position: relative;
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 1.5;
+  text-align: center;
+  color: #464646;
+}
+.banner-container h1:before {
+  content: '';
+  position: absolute;
+  width: 280px;
+  height: 1px;
+  top: 70px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  background-color: #dfdfdf;
+}
+.banner-container h1:after {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  top: 67px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: #f7c525;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.banner-container h1:hover:after {
+  width: 20%;
+}
+
+.banner-container p {
+  padding-top: 50px;
+  line-height: 2;
+}
+
+/* Credit FadeIn */
+/* make keyframes that tell the start state and the end state of our object */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+  opacity:0;  /* make things invisible upon start */
+  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+}
+
+.fade-in.text {
+  -webkit-animation-delay: 0.7s;
+  -moz-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+}
+
+
+.bg-image {
+  background: #007ece;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+.bg-image:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: #333 url("http://nxworld.net/codepen/css-image-hover-effects/pic01.jpg") no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed;
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+  opacity: .8;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+
+.banner{
+    width: 100%;
+    background: #dbdbdb;
+    text-align: center;
+    color: #fff;
+}
+
+.banner-container{
+    margin: 0 auto;
+    padding: 10px 15px;
+    max-width: 85%;
+}
+
+.project-details {
+  color: #222;
+  font-size: 19px;
+  line-height: 1.4em;
+  background-color: #e8e8e8;
+}
 
 
 
@@ -1025,7 +1191,7 @@ figure:hover span {
 
 #footer {
   height: 300px;
-  background-color: white;
+  background-color: #ffffff;
 }
 
 .half {
