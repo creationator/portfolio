@@ -1061,7 +1061,18 @@ header {
    font-size: 2vw;
 }
 
+.banner{
+    width: 100%;
+    background: #FF4500;
+    text-align: center;
+    color: #555;
+}
 
+.banner-container{
+    margin: 0 auto;
+    padding: 10px 15px;
+    max-width: 85%;
+}
 .banner-container h1 {
   position: relative;
   font-family: "Open Sans", sans-serif;
@@ -1164,19 +1175,6 @@ header {
           transform: scale(1.1);
 }
 
-
-.banner{
-    width: 100%;
-    background: #dbdbdb;
-    text-align: center;
-    color: #fff;
-}
-
-.banner-container{
-    margin: 0 auto;
-    padding: 10px 15px;
-    max-width: 85%;
-}
 
 .project-details {
   color: #222;
