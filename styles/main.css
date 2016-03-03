@@ -1040,7 +1040,7 @@ img {
 .container {
   margin: 0 auto;
   padding: 20px 15px;
-  max-width: 90%;
+  max-width: 80%;
 }
 
 header {
@@ -1069,7 +1069,7 @@ header {
    font-size: 2vw;
 }
 
-.banner{
+#banner{
     width: 100%;
     background: #FF4500;
     text-align: center;
@@ -1088,7 +1088,7 @@ header {
   font-weight: 300;
   line-height: 1.5;
   text-align: center;
-  color: #464646;
+  color: white;
 }
 .banner-container h1:before {
   content: '';
@@ -1100,7 +1100,7 @@ header {
   bottom: 0;
   right: 0;
   margin: auto;
-  background-color: #dfdfdf;
+  background-color: #464645;
 }
 .banner-container h1:after {
   content: '';
@@ -1112,7 +1112,7 @@ header {
   right: 0;
   bottom: 0;
   margin: auto;
-  background-color: #f7c525;
+  background-color: #e8e8e8;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -1125,6 +1125,7 @@ header {
 .banner-container p {
   padding-top: 50px;
   line-height: 2;
+  color: white;
 }
 
 /* Credit FadeIn */
@@ -1184,11 +1185,49 @@ header {
 }
 
 
-.project-details {
+#project-details {
   color: #222;
   font-size: 19px;
   line-height: 1.4em;
   background-color: #e8e8e8;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#project-details p {
+  margin-top: 20px;
+}
+
+#project-buttons {
+  background-color: #dadada;
+}
+.fuller-button {
+  color: #222;
+  background: none;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 0;
+  padding: 1.5em 5em;
+  letter-spacing: 0.35em;
+  font-size: 0.7em;
+  -webkit-transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
+  transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
+  margin: 1em;
+  float: left;
+  width: 47%;
+
+}
+
+.fuller-button.white {
+  box-shadow: inset 0 0 0.8em rgba(255, 255, 255, 0.3), 0 0 0.8em rgba(255, 255, 255, 0.3);
+  border: #222 solid 2px;
+
+}
+.fuller-button.white:hover {
+  color: rgba(0, 0, 0, 0.8);
+  background-color: #222;
+  box-shadow: inset 0 0 0 rgba(255, 255, 255, 0.3), 0 0 1.2em rgba(255, 255, 255, 0.5);
+  color: white;
 }
 
 
