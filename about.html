@@ -1,0 +1,109 @@
+<!doctype html>
+<!--[if lte IE 7]><html class="no-js ie ie7"><![endif]-->
+<!--[if IE 8]><html class="no-js ie ie8"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html>
+<head>
+  <title>Derrick Morton</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div id="wrapper">
+
+  <section id="main-intro">
+  <nav class="menu-opener">
+    <div class="menu-opener-inner"></div>
+  </nav>
+  <nav class="menu">
+    <ul class="menu-inner">
+      <a href="index.html" class="menu-link">
+        <li>Home</li>
+      </a>
+      <a href="#" class="menu-link">
+        <li>Portfolio</li>
+      </a>
+      <a href="about.html" class="menu-link">
+        <li>About</li>
+      </a>
+      <a href="#" class="menu-link">
+        <li>Contact</li>
+      </a>
+    </ul>
+  </nav>
+
+
+
+  <section class='splash'>
+       <div class='volcano'>
+         <h1 class='splash-title'>Derrick <strong>Morton</strong></h1>
+         <h2 class='splash-subtitle'>About Myself</h2>
+         <div class='content'>
+           <p>Consequat a lorem, dolor et doctrina. Ab probant te quibusdam si officia eram mentitum, magna incididunt vidisse ea est malis arbitrantur quo commodo tamen incididunt nescius, sed esse hic sunt, nulla senserit arbitrantur do ex est tamen consequat. Esse fidelissimae incididunt quae tempor ex in anim offendit officia e possumus anim deserunt proident, lorem et ubi sint vidisse. Est nisi pariatur consectetur, ne nulla ea duis. Aut lorem familiaritatem o labore commodo vidisse ex malis philosophari doctrina nulla laborum, ita labore eiusmod philosophari sed offendit fugiat laborum eu eu possumus et proident, si quorum minim an quibusdam te se veniam ut illum.</p>
+           <hr>
+           <h3 class='splash-subtitle'>Social Media Icons</h3>
+           <p>Consequat a lorem, dolor et doctrina. Ab probant te quibusdam si officia eram mentitum, magna incididunt vidisse ea est malis arbitrantur quo commodo tamen incididunt nescius, sed esse hic sunt, nulla senserit arbitrantur do ex est tamen consequat. Esse fidelissimae incididunt quae tempor ex in anim offendit officia e possumus anim deserunt proident, lorem et ubi sint vidisse. Est nisi pariatur consectetur, ne nulla ea duis. Aut lorem familiaritatem o labore commodo vidisse ex malis philosophari doctrina nulla laborum, ita labore eiusmod philosophari sed offendit fugiat laborum eu eu possumus et proident, si quorum minim an quibusdam te se veniam ut illum.</p>
+           <hr>
+         </div>
+       </div>
+     </section>
+
+
+</section>
+
+
+<section>
+  <div id="footer">
+    <div class="half">test here</div>
+    <div class="half">
+      <h1>Me Around The Web</h1>
+      <img class="me" src="http://placebeard.it/g/640x450" alt="" />
+
+      <div class="social">
+          <div class="icons">
+            <a href="#"><i class="fa fa-github"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-codepen"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-dribbble"></i></a>
+            <a href="#"><i class="fa fa-behance"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+  <script>
+  $(document).ready(function(){
+  	$('#giphy-container').addClass('is-visible');
+    $(".menu-opener").click(function(){
+    $(".menu-opener, .menu-opener-inner, .menu").toggleClass("active");
+    });
+
+    var $cell = $('.image__cell');
+
+    $cell.find('.image--basic').click(function() {
+      var $thisCell = $(this).closest('.image__cell');
+
+      if ($thisCell.hasClass('is-collapsed')) {
+        $cell.not($thisCell).removeClass('is-expanded').addClass('is-collapsed');
+        $thisCell.removeClass('is-collapsed').addClass('is-expanded');
+      } else {
+        $thisCell.removeClass('is-expanded').addClass('is-collapsed');
+      }
+    });
+
+    $cell.find('.expand__close').click(function() {
+      var $thisCell = $(this).closest('.image__cell');
+      $thisCell.removeClass('is-expanded').addClass('is-collapsed');
+    });
+  });
+  </script>
+
+
+</body>
+</html>

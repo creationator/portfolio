@@ -1030,6 +1030,81 @@ figure:hover span {
   opacity: 0.4;
 }
 
+
+
+/* About Me*/
+
+.splash {
+  position: relative;
+  background-size: contain;
+  background: url("../img/myeye.jpg") no-repeat center center ;
+
+
+  text-align: center;
+  color: #fff;
+}
+
+.splash:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  pointer-events: none;
+  background: rgba(0,0,0,0.35);
+}
+
+.volcano {
+  max-width: 60em;
+  margin: auto;
+  position: relative;
+  padding: 7% 0;
+  z-index: 10;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.splash-title {
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  font-size: 2em;
+  border: 2px solid #fff;
+  border-left: 0;
+  border-right: 0;
+  font-weight: 300;
+}
+
+.splash-subtitle {
+  font-weight: 300;
+  font-size: 1.25em;
+  line-height: 1.875rem;
+}
+
+.content hr {
+  width: 100%;
+  border:0;
+  height:1px;
+  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(255,255,255,0.75), rgba(0,0,0,0));
+  background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(255,255,255,0.75), rgba(0,0,0,0));
+  background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(255,255,255,0.75), rgba(0,0,0,0));
+  background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(255,255,255,0.75), rgba(0,0,0,0));
+}
+
+
+
+
 /* Project Section */
 
 
