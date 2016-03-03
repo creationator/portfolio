@@ -15,7 +15,7 @@
 
   nav {
     position: static;
-    z-index: 2000;
+    z-index: 2001;
   }
 
 nav a {
@@ -97,7 +97,7 @@ nav a {
   -ms-user-select: none;
   user-select: none;
   width: 0rem;
-  z-index: 2;
+  z-index: 2000;
 }
 .menu.active {
   width: -webkit-calc(100% - 2rem);
@@ -193,7 +193,7 @@ svg polygon {
 }
 .polyme {
   /*height: 800px;*/
-  margin-top: 100px;
+  margin-top: 50px;
 }
 .no-cssanimations .polyme > polygon {
   -webkit-transform: scale(1);
@@ -215,8 +215,8 @@ svg polygon {
 
 .giphy{
 list-style: none;
-min-width: 12.5%;
-height: 15%;
+min-width: 7.67%;
+height: 20%;
 background-color: black;
 position: relative;
 opacity: 0;
@@ -319,7 +319,7 @@ transform: translateY(0);
    transition-delay: 0.09s;
 }
 #gif10 {
-  background: url(http://i.giphy.com/aUF7NJcwhJPxe.gif) no-repeat center center;
+  background: url("../img/gifs/5thelement.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.10s;
@@ -328,7 +328,7 @@ transform: translateY(0);
 }
 
 #gif11 {
-  background: url(http://i.giphy.com/13HgwGsXF0aiGY.gif) no-repeat center center;
+  background: url("../img/gifs/itcrowd.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.20s;
@@ -336,7 +336,7 @@ transform: translateY(0);
    transition-delay: 0.20s;
 }
 #gif12 {
-  background: url(http://i.giphy.com/SBYEU7zsNV2gg.gif) no-repeat center center;
+  background: url("../img/gifs/lumberg.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.19s;
@@ -344,7 +344,7 @@ transform: translateY(0);
    transition-delay: 0.19s;
 }
 #gif13 {
-  background: url(http://i.giphy.com/aAqGpWoSgGjnO.gif) no-repeat center center;
+  background: url("../img/gifs/obama.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.18s;
@@ -352,7 +352,7 @@ transform: translateY(0);
    transition-delay: 0.18s;
 }
 #gif14 {
-  background: url(http://i.giphy.com/1M15RPLa4VBcc.gif) no-repeat center center;
+  background: url("../img/gifs/tron2.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.17s;
@@ -360,7 +360,7 @@ transform: translateY(0);
    transition-delay: 0.17s;
 }
 #gif15 {
-  background: url(http://i.giphy.com/FE414y8ZcB7AQ.gif) no-repeat center center;
+  background: url("../img/gifs/haltcatchfire.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.16s;
@@ -368,7 +368,7 @@ transform: translateY(0);
    transition-delay: 0.16s;
 }
 #gif16 {
-  background: url(http://i.giphy.com/z91zq2LtC4bD2.gif) no-repeat center center;
+  background: url("../img/gifs/independenceday.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.15s;
@@ -376,7 +376,7 @@ transform: translateY(0);
    transition-delay: 0.15s;
 }
 #gif17 {
-  background: url(http://i.giphy.com/GWkCXTsFJVg9G.gif) no-repeat center center;
+  background: url("../img/gifs/macbook2.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.14s;
@@ -384,7 +384,7 @@ transform: translateY(0);
    transition-delay: 0.14s;
 }
 #gif18 {
-  background: url(http://i.giphy.com/kK0ig3VKMgrS0.gif) no-repeat center center;
+  background: url("../img/gifs/5thelement2.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.13s;
@@ -400,7 +400,7 @@ transform: translateY(0);
    transition-delay: 0.12s;
 }
 #gif20 {
-  background: url(http://i.giphy.com/cvmP4BLZTMv3W.gif) no-repeat center center;
+  background: url("../img/gifs/computer.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.11s;
@@ -408,7 +408,7 @@ transform: translateY(0);
    transition-delay: 0.11s;
 }
 #gif21 {
-  background: url(http://i.giphy.com/3oEdv21Ej0IL8vjRcI.gif) no-repeat center center;
+  background: url("../img/gifs/tron3.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.21s;
@@ -416,7 +416,7 @@ transform: translateY(0);
    transition-delay: 0.21s;
 }
 #gif22 {
-  background: url(http://i.giphy.com/DMh6LTaJQVvDW.gif) no-repeat center center;
+  background: url("../img/gifs/qualitydenial.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.22s;
@@ -424,7 +424,7 @@ transform: translateY(0);
    transition-delay: 0.22s;
 }
 #gif23 {
-  background: url(http://i.giphy.com/L5GzN2cY7kEW4.gif) no-repeat center center;
+  background: url("../img/gifs/newart.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.23s;
@@ -432,7 +432,7 @@ transform: translateY(0);
    transition-delay: 0.23s;
 }
 #gif24 {
-  background: url(http://i.giphy.com/StYTkwUST4HUQ.gif) no-repeat center center;
+  background: url("../img/gifs/baconpancakes.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.24s;
@@ -440,7 +440,7 @@ transform: translateY(0);
    transition-delay: 0.24s;
 }
 #gif25 {
-  background: url(http://i.giphy.com/ACocRgYUSJF9S.gif) no-repeat center center;
+  background: url("../img/gifs/newbreed.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.25s;
@@ -448,7 +448,7 @@ transform: translateY(0);
    transition-delay: 0.25s;
 }
 #gif26 {
-  background: url(http://i.giphy.com/ztbzDi88WFwBO.gif) no-repeat center center;
+  background: url("../img/gifs/interns.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.26s;
@@ -456,7 +456,7 @@ transform: translateY(0);
    transition-delay: 0.26s;
 }
 #gif27 {
-  background: url(http://i.giphy.com/zQGhzAx0Hlz8Y.gif) no-repeat center center;
+  background: url("../img/gifs/potier.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.27s;
@@ -464,7 +464,7 @@ transform: translateY(0);
    transition-delay: 0.27s;
 }
 #gif28 {
-  background: url(http://i.giphy.com/qbAZ38vckAcik.gif) no-repeat center center;
+  background: url("../img/gifs/supahot.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.28s;
@@ -472,7 +472,7 @@ transform: translateY(0);
    transition-delay: 0.28s;
 }
 #gif29 {
-  background: url(http://i.giphy.com/fbb3vaOdcHNRu.gif) no-repeat center center;
+  background: url("../img/gifs/obama2.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.29s;
@@ -480,7 +480,7 @@ transform: translateY(0);
    transition-delay: 0.29s;
 }
 #gif30 {
-  background: url(http://i.giphy.com/wi19UKOHzatY4.gif) no-repeat center center;
+  background: url("../img/gifs/animation.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.30s;
@@ -488,7 +488,7 @@ transform: translateY(0);
    transition-delay: 0.30s;
 }
 #gif31 {
-  background: url(http://i.giphy.com/ObczttEquGkVi.gif) no-repeat center center;
+  background: url("../img/gifs/cross.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.40s;
@@ -496,7 +496,7 @@ transform: translateY(0);
    transition-delay: 0.40s;
 }
 #gif32 {
-  background: url(http://i.giphy.com/h9KtiB6DgiS2s.gif) no-repeat center center;
+  background: url("../img/gifs/what.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.39s;
@@ -504,7 +504,7 @@ transform: translateY(0);
    transition-delay: 0.39s;
 }
 #gif33 {
-  background: url(http://i.giphy.com/QkFeaONaozy0g.gif) no-repeat center center;
+  background: url("../img/gifs/bill.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.38s;
@@ -536,7 +536,7 @@ transform: translateY(0);
    transition-delay: 0.35s;
 }
 #gif37 {
-  background: url(http://i.giphy.com/TlxzGhfErTp5K.gif) no-repeat center center;
+  background: url("../img/gifs/haltcatchfire2.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.34s;
@@ -544,7 +544,7 @@ transform: translateY(0);
    transition-delay: 0.34s;
 }
 #gif38 {
-  background: url(http://i.giphy.com/txeIWZ8od1kTm.gif) no-repeat center center;
+  background: url("../img/gifs/hacker.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.33s;
@@ -552,7 +552,7 @@ transform: translateY(0);
    transition-delay: 0.33s;
 }
 #gif39 {
-  background: url(http://i.giphy.com/4UzW8S83pWoKs.gif) no-repeat center center;
+  background: url("../img/gifs/terminal.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.32s;
@@ -560,7 +560,7 @@ transform: translateY(0);
    transition-delay: 0.32s;
 }
 #gif40 {
-  background: url(http://i.giphy.com/Ra7IydVtYkxdm.gif) no-repeat center center;
+  background: url("../img/gifs/fixit.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.31s;
@@ -568,7 +568,7 @@ transform: translateY(0);
    transition-delay: 0.31s;
 }
 #gif41 {
-  background: url(http://i.giphy.com/wZcio4ufvvdde.gif) no-repeat center center;
+  background: url("../img/gifs/coffeetime.gif") no-repeat center center;
   background-size: cover;
   opacity: 0.2;
   -webkit-transition-delay: 0.41s;
@@ -576,7 +576,7 @@ transform: translateY(0);
   transition-delay: 0.41s;
 }
 #gif42 {
-  background: url(http://i.giphy.com/UHTL485vUljmE.gif) no-repeat center center;
+  background: url("../img/gifs/hurdles.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.42s;
@@ -584,7 +584,7 @@ transform: translateY(0);
    transition-delay: 0.42s;
 }
 #gif43 {
-  background: url(http://i.giphy.com/4sCg9B93NIuLm.gif) no-repeat center center;
+  background: url("../img/gifs/tron4.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.43s;
@@ -592,7 +592,7 @@ transform: translateY(0);
    transition-delay: 0.43s;
 }
 #gif44 {
-  background: url(http://i.giphy.com/xTiTnFsHLtRShu6Ifu.gif) no-repeat center center;
+  background: url("../img/gifs/bb8.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.44s;
@@ -600,7 +600,7 @@ transform: translateY(0);
    transition-delay: 0.44s;
 }
 #gif45 {
-  background: url(http://i.imgur.com/pZjDq6g.gif) no-repeat center center;
+  background: url("../img/gifs/codehands.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.45s;
@@ -608,7 +608,7 @@ transform: translateY(0);
    transition-delay: 0.45s;
 }
 #gif46 {
-  background: url(http://i.giphy.com/3oEduR6BxaE9undCIU.gif) no-repeat center center;
+  background: url("../img/gifs/blank.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.46s;
@@ -616,7 +616,7 @@ transform: translateY(0);
    transition-delay: 0.46s;
 }
 #gif47 {
-  background: url(http://i.giphy.com/iTwnXaRXpioYU.gif) no-repeat center center;
+  background: url("../img/gifs/vulcan.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.47s;
@@ -624,7 +624,7 @@ transform: translateY(0);
    transition-delay: 0.47s;
 }
 #gif48 {
-  background: url(http://i.giphy.com/kFRz9G9z7Lzri.gif) no-repeat center center;
+  background: url("../img/gifs/multipass.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.48s;
@@ -632,7 +632,7 @@ transform: translateY(0);
    transition-delay: 0.48s;
 }
 #gif49 {
-  background: url(http://i.giphy.com/aN5kVBEd1YH5e.gif) no-repeat center center;
+  background: url("../img/gifs/got1.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.49s;
@@ -640,7 +640,7 @@ transform: translateY(0);
    transition-delay: 0.49s;
 }
 #gif50 {
-  background: url(http://i.giphy.com/ImTxYxX9Q50s.gif) no-repeat center center;
+  background: url("../img/gifs/animation2.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.50;
@@ -648,7 +648,7 @@ transform: translateY(0);
    transition-delay: 0.50;
 }
 #gif51 {
-  background: url(http://i.giphy.com/HoffxyN8ghVuw.gif) no-repeat center center;
+  background: url("../img/gifs/fasthands.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.60s;
@@ -656,7 +656,7 @@ transform: translateY(0);
    transition-delay: 0.60s;
 }
 #gif52 {
-  background: url(http://i.giphy.com/yYSSBtDgbbRzq.gif) no-repeat center center;
+  background: url("../img/gifs/css.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.59s;
@@ -664,7 +664,7 @@ transform: translateY(0);
    transition-delay: 0.59s;
 }
 #gif53 {
-  background: url(http://i.giphy.com/1C8bHHJturSx2.gif) no-repeat center center;
+  background: url("../img/gifs/moss.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.58s;
@@ -672,7 +672,7 @@ transform: translateY(0);
    transition-delay: 0.58s;
 }
 #gif54 {
-  background: url(http://i.giphy.com/gU25raLP4pUu4.gif) no-repeat center center;
+  background: url("../img/gifs/terminal2.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.57s;
@@ -680,7 +680,7 @@ transform: translateY(0);
    transition-delay: 0.57s;
 }
 #gif55 {
-  background: url(http://i.giphy.com/13DrNUKHbvfpUQ.gif) no-repeat center center;
+  background: url("../img/gifs/virtualreality.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.56s;
@@ -688,7 +688,7 @@ transform: translateY(0);
    transition-delay: 0.56s;
 }
 #gif56 {
-  background: url(http://i.giphy.com/eCqFYAVjjDksg.gif) no-repeat center center;
+  background: url("../img/gifs/hacker2.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.55s;
@@ -696,7 +696,7 @@ transform: translateY(0);
    transition-delay: 0.55s;
 }
 #gif57 {
-  background: url(http://i.giphy.com/ZHlGzvZb130nm.gif) no-repeat center center;
+  background: url("../img/gifs/computer2.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.54s;
@@ -704,7 +704,7 @@ transform: translateY(0);
    transition-delay: 0.54s;
 }
 #gif58 {
-  background: url(http://i.giphy.com/NrqabhEpXWsGA.gif) no-repeat center center;
+  background: url("../img/gifs/bruh.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.53s;
@@ -712,7 +712,7 @@ transform: translateY(0);
    transition-delay: 0.53s;
 }
 #gif59 {
-  background: url(http://i.giphy.com/l3zoKeX8bMG5sMP4s.gif) no-repeat center center;
+  background: url("../img/gifs/dab.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.52s;
@@ -720,7 +720,7 @@ transform: translateY(0);
    transition-delay: 0.52s;
 }
 #gif60 {
-  background: url(http://i.giphy.com/T2NINhwlHgOSk.gif) no-repeat center center;
+  background: url("../img/gifs/dylan.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.51s;
@@ -728,7 +728,7 @@ transform: translateY(0);
    transition-delay: 0.51s;
 }
 #gif61 {
-  background: url(http://i.giphy.com/yzwe1eFJ7toac.gif) no-repeat center center;
+  background: url("../img/gifs/wiredin.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.61s;
@@ -736,7 +736,7 @@ transform: translateY(0);
    transition-delay: 0.61s;
 }
 #gif62 {
-  background: url(http://i.giphy.com/YbVUCKWpzHX7G.gif) no-repeat center center;
+  background: url("../img/gifs/haltcatchfire4.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.62s;
@@ -744,7 +744,7 @@ transform: translateY(0);
    transition-delay: 0.62s;
 }
 #gif63 {
-  background: url(http://i.giphy.com/RvnAsSpjIKqmk.gif) no-repeat center center;
+  background: url("../img/gifs/unikitty.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.63s;
@@ -752,7 +752,7 @@ transform: translateY(0);
    transition-delay: 0.63s;
 }
 #gif64 {
-  background: url(http://i.giphy.com/1GuTsjBId1qmY.gif) no-repeat center center;
+  background: url("../img/gifs/sky.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.64s;
@@ -760,7 +760,7 @@ transform: translateY(0);
    transition-delay: 0.64s;
 }
 #gif65  {
-  background: url(http://i.giphy.com/Z4YKVHaOo7k6Q.gif) no-repeat center center;
+  background: url("../img/gifs/avatar.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.65s;
@@ -768,7 +768,7 @@ transform: translateY(0);
    transition-delay: 0.65s;
 }
 #gif66  {
-  background: url(http://i.giphy.com/R1FksxmIHlSzC.gif) no-repeat center center;
+  background: url("../img/gifs/a.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.66s;
@@ -776,7 +776,7 @@ transform: translateY(0);
    transition-delay: 0.66s;
 }
 #gif67  {
-  background: url(http://i.giphy.com/KJUUXpw8ou7sc.gif) no-repeat center center;
+  background: url("../img/gifs/haltcatchfire3.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.67s;
@@ -784,7 +784,7 @@ transform: translateY(0);
    transition-delay: 0.67s;
 }
 #gif68 {
-  background: url(http://i.giphy.com/11kEuHSQAXXiGQ.gif) no-repeat center center;
+  background: url("../img/gifs/fail.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.68s;
@@ -792,7 +792,7 @@ transform: translateY(0);
    transition-delay: 0.68s;
 }
 #gif69 {
-  background: url(http://i.giphy.com/dDJjVYVJZOxYk.gif) no-repeat center center;
+  background: url("../img/gifs/stepbrothers.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.69s;
@@ -800,7 +800,7 @@ transform: translateY(0);
    transition-delay: 0.69s;
 }
 #gif70 {
-  background: url(http://i.giphy.com/1141mJsniNWlJ6.gif) no-repeat center center;
+  background: url("../img/gifs/usa.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.70s;
@@ -808,7 +808,7 @@ transform: translateY(0);
    transition-delay: 0.70s;
 }
 #gif71 {
-  background: url(http://i.giphy.com/zoFBRfQo68Zqw.gif) no-repeat center center;
+  background: url("../img/gifs/deadpool.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.80s;
@@ -816,7 +816,7 @@ transform: translateY(0);
    transition-delay: 0.80s;
 }
 #gif72 {
-  background: url(http://i.giphy.com/jE9vCJsaPgg7u.gif) no-repeat center center;
+  background: url("../img/gifs/socialnetwork.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.79s;
@@ -824,7 +824,7 @@ transform: translateY(0);
    transition-delay: 0.79s;
 }
 #gif73 {
-  background: url(http://i.giphy.com/26FPnsRww5DbqoPuM.gif) no-repeat center center;
+  background: url("../img/gifs/thatsit.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.78s;
@@ -832,7 +832,7 @@ transform: translateY(0);
    transition-delay: 0.78s;
 }
 #gif74 {
-  background: url(http://i.giphy.com/dxK4xNUn4IZ6o.gif) no-repeat center center;
+  background: url("../img/gifs/mj.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.77s;
@@ -840,7 +840,7 @@ transform: translateY(0);
    transition-delay: 0.77s;
 }
 #gif75 {
-  background: url(http://i.giphy.com/yEtv1wWZpmG2s.gif) no-repeat center center;
+  background: url("../img/gifs/missy.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.76s;
@@ -848,7 +848,7 @@ transform: translateY(0);
    transition-delay: 0.76s;
 }
 #gif75 {
-  background: url(http://i.giphy.com/bTDBO7eGnVFJe.gif) no-repeat center center;
+  background: url("../img/gifs/github2.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.75s;
@@ -856,7 +856,7 @@ transform: translateY(0);
    transition-delay: 0.75s;
 }
 #gif76 {
-  background: url(http://i.giphy.com/YV52rFaS1PBIc.gif) no-repeat center center;
+  background: url("../img/gifs/icecube.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.74s;
@@ -864,7 +864,7 @@ transform: translateY(0);
    transition-delay: 0.74s;
 }
 #gif77 {
-  background: url(http://i.giphy.com/1dcQy5aIQosPS.gif) no-repeat center center;
+  background: url("../img/gifs/outkast.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.73s;
@@ -872,7 +872,7 @@ transform: translateY(0);
    transition-delay: 0.73s;
 }
 #gif78 {
-  background: url(http://i.giphy.com/9iv4ErObYQvrW.gif) no-repeat center center;
+  background: url("../img/gifs/jsanimation.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.72s;
@@ -880,7 +880,7 @@ transform: translateY(0);
    transition-delay: 0.72s;
 }
 #gif79 {
-  background: url(http://i.giphy.com/xTui3YEvGsH60.gif) no-repeat center center;
+  background: url("../img/gifs/matrix.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.71s;
@@ -888,7 +888,7 @@ transform: translateY(0);
    transition-delay: 0.71s;
 }
 #gif80 {
-  background: url(http://i.giphy.com/oIFG9edl27Xaw.gif) no-repeat center center;
+  background: url("../img/gifs/ai.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.81s;
@@ -896,7 +896,7 @@ transform: translateY(0);
    transition-delay: 0.81s;
 }
 #gif81 {
-  background: url(http://i.giphy.com/CVUHFN9yMDwxW.gif) no-repeat center center;
+  background: url("../img/gifs/jidenna.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.82s;
@@ -904,7 +904,7 @@ transform: translateY(0);
    transition-delay: 0.82s;
 }
 #gif82 {
-  background: url(http://i.giphy.com/yEtv1wWZpmG2s.gif) no-repeat center center;
+  background: url("../img/gifs/alf.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.83s;
@@ -912,7 +912,7 @@ transform: translateY(0);
    transition-delay: 0.83s;
 }
 #gif83 {
-  background: url(http://i.giphy.com/l2JHZKNio4EjY6iqY.gif) no-repeat center center;
+  background: url("../img/gifs/princechapelle.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.84s;
@@ -920,7 +920,7 @@ transform: translateY(0);
    transition-delay: 0.84s;
 }
 #gif84 {
-  background: url(http://i.giphy.com/TEAa6rnazO8y4.gif) no-repeat center center;
+  background: url("../img/gifs/leo.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.85s;
@@ -928,7 +928,7 @@ transform: translateY(0);
    transition-delay: 0.85s;
 }
 #gif85 {
-  background: url(http://i.giphy.com/4qrth4OhXNMYM.gif) no-repeat center center;
+  background: url("../img/gifs/blackpanther.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.86s;
@@ -936,7 +936,7 @@ transform: translateY(0);
    transition-delay: 0.86s;
 }
 #gif86 {
-  background: url(http://i.giphy.com/3o6UB6dsg1M5U46spO.gif) no-repeat center center;
+  background: url("../img/gifs/knickers.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.87s;
@@ -944,7 +944,7 @@ transform: translateY(0);
    transition-delay: 0.87s;
 }
 #gif87 {
-  background: url(http://i.giphy.com/pI5ILqxlNVhjW.gif) no-repeat center center;
+  background: url("../img/gifs/google.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.88s;
@@ -952,7 +952,7 @@ transform: translateY(0);
    transition-delay: 0.88s;
 }
 #gif88 {
-  background: url(http://i.giphy.com/QOwa38o4ou6IM.gif) no-repeat center center;
+  background: url("../img/gifs/worldfuture.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.89s;
@@ -960,7 +960,7 @@ transform: translateY(0);
    transition-delay: 0.89s;
 }
 #gif89 {
-  background: url(http://i.giphy.com/aGhVGLE0mV2Ra.gif) no-repeat center center;
+  background: url("../img/gifs/thefuture.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.90s;
@@ -968,7 +968,15 @@ transform: translateY(0);
    transition-delay: 0.90s;
 }
 #gif90 {
-  background: url(http://i.giphy.com/92zXMobp0mrvy.gif) no-repeat center center;
+  background: url("../img/gifs/backtofuture.gif") no-repeat center center;
+  background-size: cover;
+   opacity: 0.2;
+   -webkit-transition-delay: 0.91s;
+   -moz-transition-delay: 0.91s;
+   transition-delay: 0.91s;
+}
+#gif91 {
+  background: url("../img/gifs/maya.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.91s;
