@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Khula:400,300);
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:300,500,300italic);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
   * {
     margin: 0;
     padding: 0;
@@ -896,7 +897,7 @@ transform: translateY(0);
    transition-delay: 0.81s;
 }
 #gif81 {
-  background: url("../img/gifs/jidenna.gif") no-repeat center center;
+  background: url("../img/gifs/blackpanther.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.82s;
@@ -928,7 +929,7 @@ transform: translateY(0);
    transition-delay: 0.85s;
 }
 #gif85 {
-  background: url("../img/gifs/blackpanther.gif") no-repeat center center;
+  background: url("../img/gifs/jidenna.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.86s;
@@ -944,7 +945,7 @@ transform: translateY(0);
    transition-delay: 0.87s;
 }
 #gif87 {
-  background: url("../img/gifs/google.gif") no-repeat center center;
+  background: url("../img/gifs/thefuture.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.88s;
@@ -960,7 +961,7 @@ transform: translateY(0);
    transition-delay: 0.89s;
 }
 #gif89 {
-  background: url("../img/gifs/thefuture.gif") no-repeat center center;
+  background: url("../img/gifs/google.gif") no-repeat center center;
   background-size: cover;
    opacity: 0.2;
    -webkit-transition-delay: 0.90s;
@@ -1036,10 +1037,8 @@ figure:hover span {
 
 .splash {
   position: relative;
-  background-size: contain;
-  background: url("../img/myeye.jpg") no-repeat center center ;
-
-
+  background: url("../img/myeye.jpg") no-repeat top center ;
+  background-size: cover;
   text-align: center;
   color: #fff;
 }
